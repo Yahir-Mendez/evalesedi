@@ -3,6 +3,8 @@
 export default function reservas(){
 
     return(
-       <h1>e</h1>
+       <div>
+        <h3>fdfpmfe</h3>
+       </div>
     );
 }
