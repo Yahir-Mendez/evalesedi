@@ -9,8 +9,9 @@
   box-sizing: border-box;
 }
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+ --color-principal: #ffffff;
+ --color-segundo: #000000;
+ --color-tercero: #f5f5dc;
 }
 
 @media (prefers-color-scheme: dark) {

@@ -1,6 +1,7 @@
-import type { Metadata } from "next";
 import { OpenSans } from "./fonts/fonts";
+import "normalize.css";
 import "./globals.css";
+
 
 export default function RootLayout({children}:Readonly<{children:React.ReactNode}>){
 
