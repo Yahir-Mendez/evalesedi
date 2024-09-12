@@ -1,5 +1,5 @@
-import { OpenSans } from "./fonts/fonts";
-import "normalize.css";
+import { OpenSans } from "../fonts/fonts";
+// import "normalize.css";
 import "./globals.css";
 
 

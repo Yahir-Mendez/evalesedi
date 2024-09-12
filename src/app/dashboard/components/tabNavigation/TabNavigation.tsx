@@ -38,7 +38,7 @@ const TabNavigation = React.forwardRef<
     <NavigationMenuPrimitives.List
       className={cx(
         // base
-        "flex items-center justify-start whitespace-nowrap border-b [scrollbar-width:none] [&::-webkit-scrollbar]:hidden",
+        "flex items-center justify-center  whitespace-nowrap border-b [scrollbar-width:none] [&::-webkit-scrollbar]:hidden",
         // border color
         "border-gray-200 dark:border-gray-800",
         className,
@@ -74,7 +74,7 @@ const TabNavigationLink = React.forwardRef<
         <span
           className={cx(
             // base
-            "-mb-px flex items-center justify-center whitespace-nowrap border-b-2 border-transparent px-3 pb-2 text-sm font-medium transition-all",
+            "-mb-px flex items-center justify-center whitespace-nowrap border-b-2 border-transparent px-3 pb-2 text-xl font-medium transition-all",
             // text color
             "text-gray-500 dark:text-gray-500",
             // hover
