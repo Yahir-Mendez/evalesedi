@@ -13,11 +13,11 @@ import { TabNavigation, TabNavigationLink } from "@/app/dashboard/components/tab
 
 export const TabNav = () => (
   <TabNavigation className="gap-7">
-    <TabNavigationLink href="#" active className="inline-flex gap-2">
+    <TabNavigationLink href="dashboard/reservas" active className="inline-flex gap-2">
       <RiDashboard2Fill className="size-4" aria-hidden="true" />
       Inicio
     </TabNavigationLink>
-    <TabNavigationLink href="#" className="inline-flex gap-2">
+    <TabNavigationLink href="dashboard/reservas" className="inline-flex gap-2">
       <RiCustomerService2Fill className="-ml-1 size-4" aria-hidden="true" />
       Citas
     </TabNavigationLink>
